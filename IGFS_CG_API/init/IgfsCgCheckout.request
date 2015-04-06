@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.api.web.cg.igfs.apps.netsw.it/">
+<soapenv:Body>
+<ser:Checkout>
+<request>
+<apiVersion><![CDATA[{apiVersion}]]></apiVersion>
+<tid><![CDATA[{tid}]]></tid>
+<signature><![CDATA[{signature}]]></signature>
+<shopID><![CDATA[{shopID}]]></shopID>
+<paymentID><![CDATA[{paymentID}]]></paymentID>
+<amount><![CDATA[{amount}]]></amount>
+{level3Info}
+</request>
+</ser:Checkout>
+</soapenv:Body>
+</soapenv:Envelope>
